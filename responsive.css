@@ -1,0 +1,335 @@
+/*Kaji Nisat*/
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+.header-main{
+	width:950px;
+	height:200px;
+	margin:0 auto;
+}
+.header-top{
+	width:950px;
+	height:150px;
+	background-color:#F5F5F5;
+}
+.header-bottom{
+	width:950px;
+	height:48px;
+	background-color:#DDDDDD;
+	border-top:1px solid #999;
+	border-bottom:1px solid #999;
+}
+.content-area{
+	width:950px;
+	min-height:300px;
+	/*background-color:yellow;*/
+	margin:0 auto;
+}
+.footer-main{
+	width:950px;
+	min-height:100px;
+	/*background-color:yellow;*/
+	margin:0 auto;
+}
+.sideber{
+	width:280px;
+	min-height:100px;
+	/*background-color:pink;*/
+	float:left;
+}
+.content{
+	width:570px;
+	min-height:100px;
+	/*background-color:skyblue;*/
+	float:right;
+	padding:50px;
+}
+.slicknav_menu {
+	display:none;
+}
+.header{
+	height:200px;
+}
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.header-main{
+	width:750px;
+	height:200px;
+	margin:0 auto;
+}
+.header-top{
+	width:750px;
+	height:150px;
+	background-color:#F5F5F5;
+}
+.header-bottom{
+	width:750px;
+	height:48px;
+	background-color:#DDDDDD;
+	border-top:1px solid #999;
+	border-bottom:1px solid #999;
+}
+.content-area{
+	width:750px;
+	min-height:300px;
+	/*background-color:yellow;*/
+	margin:0 auto;
+}
+.footer-main{
+	width:750px;
+	min-height:100px;
+	/*background-color:yellow;*/
+	margin:0 auto;
+}
+.sideber{
+	width:210px;
+	min-height:100px;
+	/*background-color:pink;*/
+	float:left;
+}
+.content{
+	width:420px;
+	min-height:100px;
+	/*background-color:skyblue;*/
+	float:right;
+	padding:10px 50px;
+}	
+.slicknav_menu {
+	display:none;
+}
+.header{
+	height:200px;
+}
+	
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+.content-area{
+	width:300px;
+	/*background-color:yellow;*/
+	margin:0 auto;
+}
+	
+.slider{
+	border:5px solid #DDDDDD;
+	margin:8px 0px;
+	width:290px;
+}
+
+.slider img{
+	width:100%;
+	margin-bottom:-5px;
+}
+	
+.header-main{
+	width:300px;
+	height:150px;
+	margin:0 auto;
+}
+.header-top{
+	width:300px;
+	height:150px;
+	background-color:#F5F5F5;
+}
+.header-bottom{
+	display:none;
+}
+
+.footer-area{
+	height:270px;
+}
+.footer-main{
+	width:300px;
+	height:270px;
+	/*background-color:yellow;*/
+	margin:0 auto;
+	margin-top:15px;
+}
+.footer-menu ul li{
+	display:block;
+	padding:5px 0px;
+	
+	
+}
+.footer-menu ul li a{
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	padding:2px 4px;
+	border-left:none;
+	
+}
+.sideber{
+	position:center;
+	width:300px;
+	min-height:100px;
+	/*background-color:pink;*/
+	float:none;
+}
+.content{
+	position:center;
+	width:290px;
+	min-height:100px;
+	/*background-color:skyblue;*/
+	float:none;
+	padding:10px 5px;
+}
+.header-top h1{
+	font-size:26px;
+}	
+.content h1{
+	font-size:25px;
+}
+.js #menu {
+		display:none;
+}
+	
+.js .slicknav_menu {
+		display:block;
+}
+.header{
+	height:150px;
+}
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+.slider{
+	border:5px solid #DDDDDD;
+	margin:8px 0px;
+	width:440px;
+}
+
+.slider img{
+	width:100%;
+	margin-bottom:-5px;
+}
+	
+.header-main{
+	width:450px;
+	height:150px;
+	margin:0 auto;
+}
+.header-top{
+	width:450px;
+	height:150px;
+	background-color:#F5F5F5;
+}
+.header-bottom{
+	width:450px;
+	height:48px;
+	background-color:#DDDDDD;
+	border-top:1px solid #999;
+	border-bottom:1px solid #999;
+		display:none;
+}
+.content-area{
+	width:450px;
+	min-height:300px;
+	/*background-color:yellow;*/
+	margin:0 auto;
+}
+
+.footer-area{
+	height:270px;
+}
+.footer-main{
+	width:450px;
+	height:270px;
+	/*background-color:yellow;*/
+	margin:0 auto;
+	margin-top:15px;
+}
+.footer-menu ul li{
+	display:block;
+	padding:5px 0px;
+	
+	
+}
+.footer-menu ul li a{
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	padding:2px 4px;
+	border-left:none;
+	
+}
+
+.sideber{
+	width:450px;
+	min-height:100px;
+	/*background-color:pink;*/
+	float:none;
+}
+.content{
+	width:430px;
+	min-height:100px;
+	/*background-color:skyblue;*/
+	float:none;
+	padding:10px 10px;
+}
+.js #menu {
+		display:none;
+}
+	
+.js .slicknav_menu {
+		display:block;
+}	
+.header{
+	height:150px;
+}
+
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	body {
+	
+	}
+	
+}
